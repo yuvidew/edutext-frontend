@@ -7,7 +7,7 @@ const HomeLayout = ({children}) => {
             className='h-full '  
         >
             <Header/>
-            <main className='h-full pt-24'>
+            <main className=''>
                 {children}
             </main>
         </div>

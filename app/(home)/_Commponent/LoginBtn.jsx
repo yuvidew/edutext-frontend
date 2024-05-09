@@ -14,8 +14,8 @@ export const LoginBtn = () => {
     return (
         <Dialog>
         <DialogTrigger>Login</DialogTrigger>
-        <DialogContent className = "dark:bg-stone-900 border-none w-full">
-            <Tabs defaultValue="account" className="w-full pt-4">
+        <DialogContent className = "dark:bg-stone-900 border-none ">
+            <Tabs defaultValue="account" className=" pt-4">
             <TabsList>
                 <TabsTrigger value="account" className = " focus-within:bg-stone-900">Login</TabsTrigger>
                 <TabsTrigger value="password">SignUp</TabsTrigger>
